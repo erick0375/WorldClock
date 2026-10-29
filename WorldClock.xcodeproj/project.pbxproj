@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* WorldClockModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000001 /* WorldClockModels.swift */; };
+		A10000020000000000000001 /* DigitalClockCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000020000000000000001 /* DigitalClockCardView.swift */; };
+		A10000030000000000000001 /* WidgetMultiClockGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000030000000000000001 /* WidgetMultiClockGridView.swift */; };
+		A10000040000000000000001 /* WorldClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000040000000000000001 /* WorldClockApp.swift */; };
+		A10000050000000000000001 /* WorldClockStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000050000000000000001 /* WorldClockStore.swift */; };
+		A10000060000000000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000060000000000000001 /* ContentView.swift */; };
+		A10000070000000000000001 /* AddCitySheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000070000000000000001 /* AddCitySheetView.swift */; };
+		A10000080000000000000001 /* DesktopFloatingWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000080000000000000001 /* DesktopFloatingWidgetView.swift */; };
+		A10000090000000000000001 /* WorldClockModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000001 /* WorldClockModels.swift */; };
+		A100000A0000000000000001 /* WidgetMultiClockGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000030000000000000001 /* WidgetMultiClockGridView.swift */; };
+		A100000B0000000000000001 /* WorldClockWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000090000000000000001 /* WorldClockWidget.swift */; };
+		A100000C0000000000000001 /* WorldClockWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A30000020000000000000001 /* WorldClockWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A40000010000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A90000010000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60000020000000000000001;
+			remoteInfo = WorldClockWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A50000010000000000000001 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A100000C0000000000000001 /* WorldClockWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A20000010000000000000001 /* WorldClockModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockModels.swift; sourceTree = "<group>"; };
+		A20000020000000000000001 /* DigitalClockCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalClockCardView.swift; sourceTree = "<group>"; };
+		A20000030000000000000001 /* WidgetMultiClockGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetMultiClockGridView.swift; sourceTree = "<group>"; };
+		A20000040000000000000001 /* WorldClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockApp.swift; sourceTree = "<group>"; };
+		A20000050000000000000001 /* WorldClockStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockStore.swift; sourceTree = "<group>"; };
+		A20000060000000000000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000070000000000000001 /* AddCitySheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCitySheetView.swift; sourceTree = "<group>"; };
+		A20000080000000000000001 /* DesktopFloatingWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopFloatingWidgetView.swift; sourceTree = "<group>"; };
+		A20000090000000000000001 /* WorldClockWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockWidget.swift; sourceTree = "<group>"; };
+		A200000A0000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A200000B0000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A30000010000000000000001 /* WorldClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30000020000000000000001 /* WorldClockWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WorldClockWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50000020000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50000030000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A70000010000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A70000020000000000000001 /* Shared */,
+				A70000030000000000000001 /* WorldClockApp */,
+				A70000040000000000000001 /* WorldClockWidget */,
+				A70000050000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A70000020000000000000001 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000001 /* WorldClockModels.swift */,
+				A20000020000000000000001 /* DigitalClockCardView.swift */,
+				A20000030000000000000001 /* WidgetMultiClockGridView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		A70000030000000000000001 /* WorldClockApp */ = {
+			isa = PBXGroup;
+			children = (
+				A20000040000000000000001 /* WorldClockApp.swift */,
+				A20000050000000000000001 /* WorldClockStore.swift */,
+				A20000060000000000000001 /* ContentView.swift */,
+				A20000070000000000000001 /* AddCitySheetView.swift */,
+				A20000080000000000000001 /* DesktopFloatingWidgetView.swift */,
+				A200000A0000000000000001 /* Info.plist */,
+			);
+			path = WorldClockApp;
+			sourceTree = "<group>";
+		};
+		A70000040000000000000001 /* WorldClockWidget */ = {
+			isa = PBXGroup;
+			children = (
+				A20000090000000000000001 /* WorldClockWidget.swift */,
+				A200000B0000000000000001 /* Info.plist */,
+			);
+			path = WorldClockWidget;
+			sourceTree = "<group>";
+		};
+		A70000050000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30000010000000000000001 /* WorldClock.app */,
+				A30000020000000000000001 /* WorldClockWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60000010000000000000001 /* WorldClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000020000000000000001 /* Build configuration list for PBXNativeTarget "WorldClock" */;
+			buildPhases = (
+				A50000040000000000000001 /* Sources */,
+				A50000020000000000000001 /* Frameworks */,
+				A50000010000000000000001 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A60000030000000000000001 /* PBXTargetDependency */,
+			);
+			name = WorldClock;
+			productName = WorldClock;
+			productReference = A30000010000000000000001 /* WorldClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A60000020000000000000001 /* WorldClockWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000030000000000000001 /* Build configuration list for PBXNativeTarget "WorldClockWidgetExtension" */;
+			buildPhases = (
+				A50000050000000000000001 /* Sources */,
+				A50000030000000000000001 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldClockWidgetExtension;
+			productName = WorldClockWidgetExtension;
+			productReference = A30000020000000000000001 /* WorldClockWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90000010000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = A80000010000000000000001 /* Build configuration list for PBXProject "WorldClock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A70000010000000000000001;
+			productRefGroup = A70000050000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60000010000000000000001 /* WorldClock */,
+				A60000020000000000000001 /* WorldClockWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50000040000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000001 /* WorldClockModels.swift in Sources */,
+				A10000020000000000000001 /* DigitalClockCardView.swift in Sources */,
+				A10000030000000000000001 /* WidgetMultiClockGridView.swift in Sources */,
+				A10000040000000000000001 /* WorldClockApp.swift in Sources */,
+				A10000050000000000000001 /* WorldClockStore.swift in Sources */,
+				A10000060000000000000001 /* ContentView.swift in Sources */,
+				A10000070000000000000001 /* AddCitySheetView.swift in Sources */,
+				A10000080000000000000001 /* DesktopFloatingWidgetView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50000050000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000090000000000000001 /* WorldClockModels.swift in Sources */,
+				A100000A0000000000000001 /* WidgetMultiClockGridView.swift in Sources */,
+				A100000B0000000000000001 /* WorldClockWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A60000030000000000000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A60000020000000000000001 /* WorldClockWidgetExtension */;
+			targetProxy = A40000010000000000000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA0000020000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AA0000030000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WorldClockApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldclock.macos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		AA0000040000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WorldClockApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldclock.macos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		AA0000050000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WorldClockWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldclock.macos.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		AA0000060000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WorldClockWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.worldclock.macos.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80000010000000000000001 /* Build configuration list for PBXProject "WorldClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000010000000000000001 /* Debug */,
+				AA0000020000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000020000000000000001 /* Build configuration list for PBXNativeTarget "WorldClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000030000000000000001 /* Debug */,
+				AA0000040000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000030000000000000001 /* Build configuration list for PBXNativeTarget "WorldClockWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000050000000000000001 /* Debug */,
+				AA0000060000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90000010000000000000001 /* Project object */;
+}
+
