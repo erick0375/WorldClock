@@ -171,4 +171,20 @@ mkdir -p "$PROJECT_DIR/build"
 rm -rf "$PROJECT_DIR/build/WorldClock.app"
 cp -R "$APP_BUNDLE" "$PROJECT_DIR/build/WorldClock.app"
 
-echo "==> Build succeeded! Bundle installed at: /Applications/WorldClock.app"
+echo "==> Packaging WorldClock.dmg installer..."
+DMG_STAGING="$BUILD_DIR/dmg_staging"
+DMG_PATH="$PROJECT_DIR/build/WorldClock.dmg"
+rm -rf "$DMG_STAGING" "$DMG_PATH"
+mkdir -p "$DMG_STAGING"
+cp -R "$APP_BUNDLE" "$DMG_STAGING/WorldClock.app"
+ln -s /Applications "$DMG_STAGING/Applications"
+hdiutil create \
+  -volname "World Clock" \
+  -srcfolder "$DMG_STAGING" \
+  -ov \
+  -format UDZO \
+  "$DMG_PATH" >/dev/null
+
+echo "==> Build succeeded!"
+echo "    App Bundle: /Applications/WorldClock.app"
+echo "    DMG Image : $DMG_PATH"

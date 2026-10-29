@@ -19,7 +19,15 @@ A native macOS application and **WidgetKit Desktop & Notification Center Widget*
   - Curated list of major global cities plus instant search across all global IANA timezones, countries, and abbreviations.
   - Drag-and-drop or one-click reordering in the sidebar.
 
-## Building & Installing
+## Installation
+
+### Download Pre-Built Release (`.dmg`)
+
+1. Download **`WorldClock.dmg`** from the [**Releases**](https://github.com/erick0375/WorldClock/releases/latest) page.
+2. Open `WorldClock.dmg` and drag **WorldClock.app** into your **Applications** folder.
+3. Launch **WorldClock** once from `/Applications` so macOS registers the desktop widget extension.
+
+## Building from Source
 
 ### Option 1: Build Script (No Paid Apple Developer Account Required)
 
